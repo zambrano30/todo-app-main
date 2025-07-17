@@ -1,4 +1,4 @@
-## Utilizacion de la pltaforma vercel.
+## Utilizacion de la plataforma vercel.
 Utilice versel para desplegar mi proyecto, lo que averigue es que es una plataforma gratuita, y lo que me gusto muvho es que el dominio es mucho mas corto. ([(https://todo-app-main-ten.vercel.app/)])
 
 ## Use la el framework de Tailwind para los estilos
