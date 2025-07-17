@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Todo app</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body class="w-[375px] h-[600px] font-sans bg-gray-100">
+    <header class="bg-[url(/images/bg-mobile-light.jpg)] h-[15rem] w-[375px] absolute">
+      <div class="flex justify-between gap-4 mx-4">
+        <div class="flex justify-start items-center size-30">
+          <h1 class="text-5xl font-bold text-white">Todo</h1>
+        </div>
+        <div class="flex justify-end items-center size-30">
+          <img src="./images/icon-moon.svg" alt="" class="size-7" />
+        </div>
+      </div>
+    </header>
+    <form action="" class="flex flex-col justify-center items-center relative top-[7rem]">
+      <div
+        class="border-1 border-gray-400 mb-4 w-[330px] h-[50px] bg-white flex items-center justify-start"
+      >
+        <label for="text"
+          ><input type="text" />
+          <input type="radio" />
+          Create a new to do..</label
+        >
+      </div>
+      <div class="border-0.5 border-gray-400">
+        <div class="border-1 border-gray-400 w-[330px] h-[50px] bg-white">
+          <input type="radio" /> <label for="text">Hola</label>
+        </div>
+        <div class="border-1 border-gray-400 w-[330px] h-[50px] bg-white">
+          <input type="radio" /> <label for="text">Hola</label>
+        </div>
+        <div class="border-1 border-gray-400 w-[330px] h-[50px] bg-white">
+          <input type="radio" /> <label for="text">Hola</label>
+        </div>
+        <div class="border-1 border-gray-400 w-[330px] h-[50px] bg-white">
+          <input type="radio" /> <label for="text">Hola</label>
+        </div>
+        <div class="border-1 border-gray-400 w-[330px] h-[50px] bg-white">
+          <input type="radio" /> <label for="text">Hola</label>
+        </div>
+      </div>
+    </form>
+
+    <div class="attribution relative top-[20rem]">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Christopher Zambrano</a>.
+    </div>
+  </body>
+</html>
